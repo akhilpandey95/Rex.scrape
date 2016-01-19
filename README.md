@@ -5,7 +5,7 @@ Application for comparing search results of different e-Commerce websites.
 Please go ahead and click on the [link](https://vimeo.com/)
 
 ### Parts of Rex
-`` - The scraping API that fetches the content from the Internet.
+`Carpal` - The scraping API that fetches the content from the Internet.
 `` - The filtering API which improves the search query.
 `` - The UI powering `Rex`.
 
