@@ -4,23 +4,21 @@
  * The MIT License
  */
 var h = require('http'),
-    c = require('cheerio')
     e = require('express'),
-    r = require('request'),
-    b = require('body-parser'),
-    f = require('fs');
+    p = require('path'),
+    c = require('child_process'),
+    b = require('phantomjs');
 
-r('', function(err, res, html) {
-    if(!err && res.statusCode == 200) {
-        var l = c.load(html);
+var uri = [""];
 
-        l('').each(function(i, element) {
-            var content = l(this);
-            var data = content.text();
-            console.log(data);
-        });
-    }
-});
+// snapdeal (http://www.snapdeal.com/search?keyword=samsung&sort=[rlvncy,plrty,plth,phtl,dhtl,rec])
+// askmebazaar (http://www.askmebazaar.com/index.php?defSearch=1&search_query=nike)
+// amazon (http://www.amazon.in/s/&field-keywords=apple%20iphone%205s)
+// ebay (http://www.ebay.in/sch/i.html?&_nkw=nike&_sop=12)
+
+function getdata(arg) {
+
+}
 
 module.exports.unleash = function() {
         var port = process.env.PORT || 8000;
@@ -58,33 +56,15 @@ module.exports.unleash = function() {
                 var data = req.params.value;
                 res.json({
                     request  : 'you have requested for ' + data,
-                    product  : 'yet to come',
-                    category : 'yet to come',
-                    website  : {
-                        amazon : {
-                            price       : 'yet to come',
-                            description : 'yet to come',
-                            discount    : 'yet to come',
-                            rating      : 'yet to come'
-                        },
-                        flipkart : {
-                            price       : 'yet to come',
-                            description : 'yet to come',
-                            discount    : 'yet to come',
-                            rating      : 'yet to come'
-                        },
-                        snapdeal : {
-                            price       : 'yet to come',
-                            description : 'yet to come',
-                            discount    : 'yet to come',
-                            rating      : 'yet to come'
-                        },
-                        askme : {
-                            price       : 'yet to come',
-                            description : 'yet to come',
-                            discount    : 'yet to come',
-                            rating      : 'yet to come'
-                        }
+                    name        : 'yet to come',
+                    price       : 'yet to come',
+                    description : 'yet to come',
+                    canPurchase : 'yet to come',
+                    soldOut     : 'yet to come',
+                    rating      : 'yet to come',
+                    images : {
+                        full  : 'yet to come',
+                        thumb : 'yet to come'
                     }
                 });
         });
