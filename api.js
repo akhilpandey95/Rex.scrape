@@ -4,10 +4,23 @@
  * The MIT License
  */
 var h = require('http'),
+    c = require('cheerio')
     e = require('express'),
     r = require('request'),
     b = require('body-parser'),
     f = require('fs');
+
+r('', function(err, res, html) {
+    if(!err && res.statusCode == 200) {
+        var l = c.load(html);
+
+        l('').each(function(i, element) {
+            var content = l(this);
+            var data = content.text();
+            console.log(data);
+        });
+    }
+});
 
 module.exports.unleash = function() {
         var port = process.env.PORT || 8000;
@@ -21,10 +34,10 @@ module.exports.unleash = function() {
         api.use(b.urlencoded({ extended : true}));
         ui.use(b.json());
         ui.use(b.urlencoded({ extended : true}));
-        
+
         // The REX UI router
         rex_ui.get('/', function(req, res) {
-                res.send("The UI of Rex")
+                res.json("The UI of Rex")
         });
 
         rex_ui.get('/:somevalue', function(req, res) {
@@ -35,7 +48,7 @@ module.exports.unleash = function() {
         rex_ui.get('/app', function(req, res) {
                 res.send("The main app");
         });
-        
+
         // The REX API router
         rex_api.get('/', function(req, res) {
                 res.send("The API powering Rex");
@@ -43,7 +56,37 @@ module.exports.unleash = function() {
 
         rex_api.get('/:value', function(req, res) {
                 var data = req.params.value;
-                res.send("You have requested for http://localhost:8000/" + data);
+                res.json({
+                    request  : 'you have requested for ' + data,
+                    product  : 'yet to come',
+                    category : 'yet to come',
+                    website  : {
+                        amazon : {
+                            price       : 'yet to come',
+                            description : 'yet to come',
+                            discount    : 'yet to come',
+                            rating      : 'yet to come'
+                        },
+                        flipkart : {
+                            price       : 'yet to come',
+                            description : 'yet to come',
+                            discount    : 'yet to come',
+                            rating      : 'yet to come'
+                        },
+                        snapdeal : {
+                            price       : 'yet to come',
+                            description : 'yet to come',
+                            discount    : 'yet to come',
+                            rating      : 'yet to come'
+                        },
+                        askme : {
+                            price       : 'yet to come',
+                            description : 'yet to come',
+                            discount    : 'yet to come',
+                            rating      : 'yet to come'
+                        }
+                    }
+                });
         });
 
         ui.use('/secret', rex_api);
