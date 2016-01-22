@@ -3,11 +3,12 @@
  * Team Rex
  * The MIT License
  */
-var h = require('http'),
-    e = require('express'),
-    p = require('path'),
-    c = require('child_process'),
-    b = require('phantomjs');
+var h  = require('http'),
+    e  = require('express'),
+    p  = require('path'),
+    c  = require('child_process'),
+    bp = require('body-parser'),
+    b  = require('phantomjs');
 
 var uri = [""];
 
@@ -28,10 +29,10 @@ module.exports.unleash = function() {
         var rex_ui = e.Router();
 
         api.set('title', "Rex UI");
-        api.use(b.json());
-        api.use(b.urlencoded({ extended : true}));
-        ui.use(b.json());
-        ui.use(b.urlencoded({ extended : true}));
+        api.use(bp.json());
+        api.use(bp.urlencoded({ extended : true}));
+        ui.use(bp.json());
+        ui.use(bp.urlencoded({ extended : true}));
 
         // The REX UI router
         rex_ui.get('/', function(req, res) {
