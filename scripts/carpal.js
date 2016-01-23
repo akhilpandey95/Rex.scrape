@@ -15,7 +15,7 @@ var arg = "nike,"
 	ebay = [],
 	askme = [];
 
-/* Ammzon
+// Ammzon
 p.open(url[0] + arg, function(status) {
 	if(status != 'success') {
 		console.log("Cannot access the network");
@@ -80,7 +80,7 @@ p.open(url[0] + arg, function(status) {
 	}
 	phantom.exit();
 });
-*/
+
 // Snapdeal
 p.open(url[1] + arg, function(status) {
 	if(status != 'success') {
@@ -110,9 +110,9 @@ p.open(url[1] + arg, function(status) {
 
 		// product image
 		var prodImg = p.evaluate(function() {
-			for(var i =0; i<48; i++) {
-				var list = document.getElementsByTagName('img')[i].getAttribute('src');
-			}
+			//for(var i =0; i<48; i++) {
+				var list = document.getElementsByTagName('img')[0].getAttribute('src');
+			//}
 			console.log(typeof(list));
 			var item = [];
 			for(var i = 0; i < list.length; i++) {
@@ -131,7 +131,7 @@ p.open(url[1] + arg, function(status) {
 });
 
 
-/* HomeShop 18
+// HomeShop 18
 p.open(url[4] + arg, function(status) {
 	if(status != 'success') {
 		console.log("Cannot access the network");
@@ -210,4 +210,3 @@ p.open(url[3], function(status) {
 	}
 	phantom.exit();
 });
-*/

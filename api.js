@@ -17,9 +17,6 @@ var uri = [""];
 // amazon (http://www.amazon.in/s/&field-keywords=apple%20iphone%205s)
 // ebay (http://www.ebay.in/sch/i.html?&_nkw=nike&_sop=12)
 
-function getdata(arg) {
-
-}
 
 module.exports.unleash = function() {
         var port = process.env.PORT || 8000;
