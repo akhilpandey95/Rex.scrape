@@ -1,277 +1,0 @@
-Script started on Sunday 24 January 2016 04:08:37 PM IST
-/home/hector/.zshrc:104: bad assignment
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc]1;~/code/Rex.Inc[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m hector [44m[30m[30m ~/code/Rex.Inc [43m[34m[30m  master [49m[33m[39m [K[?1h=scripts[1m/[0m[0m [?1l>
-]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=lls[?1l>
-]2;ls --color=tty]1;lsapp.py  carpal.js
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=cclear[?1l>
-]2;clear]1;clear[3;J[H[2J[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=lls[?1l>
-]2;ls --color=tty]1;lsapp.py  carpal.js
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=ppython app.py[1m [0m[0m [?1l>
-]2;python app.py]1;python[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=vvim  v  ssubl app.py[1m [0m[0m [?1l>
-]2;subl app.py]1;subl[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=ssud bl app.py[1m [0m[0m [?1l>
-]2;subl app.py]1;subl[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master [49m[33m[39m [K[?1h=subl app.py[11Dpython app.py          p  pproxy31[?1l>
-]2;export http_proxy='http://1210212111:password@192.168.23.31:3128'; export ]1;proxy31[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ● [49m[33m[39m [K[?1h=proxy31subl app.py[11Dproxy31           ggaa[?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=gaaproxy31subl app.py[11Dpython app.py[?1l>
-]2;python app.py]1;python  File "app.py", line 45
-    print i['title']
-    ^
-IndentationError: unexpected indent
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ●✚ [49m[33m[39m [K[?1h=ggaa[?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=gaa[?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=gaapython app.py[13Dgaa          [10Dpython app.py[?1l>
-]2;python app.py]1;python{'rating': u'3 out of 5 stars', 'cost': u'210.00', 'link': u'http://www.amazon.in/Nike-Multicolour-Cotton-Ankle-Socks/dp/B00BTKNXV8', 'img': u'http://ecx.images-amazon.com/images/I/417dXGwN6SL._AA160_.jpg', 'title': u'Nike Multicolour Cotton Ankle Socks - Pair Of 3'}
-{'rating': u'2.4 out of 5 stars', 'cost': u'', 'link': u'http://www.amazon.in/Nike-Performance-Cotton-Cushion-Colours/dp/B00GW79PK6', 'img': u'http://ecx.images-amazon.com/images/I/51zlN8gmZjL._AA160_.jpg', 'title': u'Nike Performance Cotton Cushion Socks (Pack of 3) Grey/White/Black Colours'}
-{'rating': u'4.1 out of 5 stars', 'cost': u'839.00 - \xa0\xa02,474.00', 'link': u'http://www.amazon.in/Nike-Cobalt-Obsidian-Rubber-Flip-Flops-8/dp/B005ANF8TU', 'img': u'http://ecx.images-amazon.com/images/I/41pzAlWegaL._AA160_.jpg', 'title': u"Nike Men's Flip-Flops"}
-{'rating': u'3.8 out of 5 stars', 'cost': u'2,612.00 - \xa0\xa03,695.00', 'link': u'http://www.amazon.in/Nike-Emerge-Cobalt-White-Running/dp/B0042UH2C8', 'img': u'http://ecx.images-amazon.com/images/I/41YprwJFTyL._AA160_.jpg', 'title': u"Nike Men's Running Shoes"}
-{'rating': u'4.6 out of 5 stars', 'cost': u'6,746.00 - \xa0\xa07,995.00', 'link': u'http://www.amazon.in/Nike-Black-White-Running-Shoes-8/dp/B00MXH8U3M', 'img': u'http://ecx.images-amazon.com/images/I/41W81b5E8kL._AA160_.jpg', 'title': u"Nike Men's Free 5.0 Running Shoes"}
-{'rating': u'4 out of 5 stars', 'cost': u'2,997.00 - \xa0\xa05,995.00', 'link': u'http://www.amazon.in/Nike-Supreme-Crimson-Multisport-Training/dp/B004MIY0M0', 'img': u'http://ecx.images-amazon.com/images/I/41KzgMKG50L._AA160_.jpg', 'title': u"Nike Men's Running Shoes"}
-{'rating': u'4.7 out of 5 stars', 'cost': u'', 'link': u'http://www.amazon.in/Nike-Flyknit-Orange-Fireberry-Running/dp/B00QJRL5CU', 'img': u'http://ecx.images-amazon.com/images/I/51nGXkdzcDL._AA160_.jpg', 'title': u"Nike Men's Flyknit Max Running Shoe"}
-{'rating': u'3.8 out of 5 stars', 'cost': u'2,495.00 - \xa0\xa06,200.00', 'link': u'http://www.amazon.in/Nike-Downshifter-Black-Green-Running/dp/B007PZ5LCK', 'img': u'http://ecx.images-amazon.com/images/I/41wfj06TSOL._AA160_.jpg', 'title': u"Nike Men's Downshifter 6 Msl Running Shoes"}
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=ggaa[?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=gaapython app.py[?1l>
-]2;python app.py]1;pythonNike Multicolour Cotton Ankle Socks - Pair Of 3
-Nike Performance Cotton Cushion Socks (Pack of 3) Grey/White/Black Colours
-Nike Men's Flip-Flops
-Nike Men's Running Shoes
-Nike Men's Free 5.0 Running Shoes
-Nike Men's Running Shoes
-Nike Men's Flyknit Max Running Shoe
-Nike Men's Downshifter 6 Msl Running Shoes
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ●✚ [49m[33m[39m [K[?1h=ggaa[?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=cclear[?1l>
-]2;clear]1;clear[3;J[H[2J[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=c cleargaa  python app.py[?1l>
-]2;python app.py]1;pythonNike Multicolour Cotton Ankle Socks - Pair Of 3
-Nike Performance Cotton Cushion Socks (Pack of 3) Grey/White/Black Colours
-Nike Men's Flip-Flops
-Nike Men's Running Shoes
-Nike Men's Free 5.0 Running Shoes
-Nike Men's Running Shoes
-Nike Men's Flyknit Max Running Shoe
-Nike Men's Downshifter 6 Msl Running Shoes
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=python app.py[13Dclear        [8Dpython app.py      app.py[1m [0m[0m [?1l>
-]2;python app.py]1;python210.00
-
-839.00 -   2,474.00
-2,612.00 -   3,695.00
-6,746.00 -   7,995.00
-2,997.00 -   5,995.00
-
-2,495.00 -   6,200.00
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ●✚ [49m[33m[39m [K[?1h=ggaa..  [?1l>
-]2;git add --all]1;gaa[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc/scripts]1;..x.Inc/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc/scripts [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=...[?1l>
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Rex.Inc]1;~/code/Rex.Inc[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Rex.Inc [43m[34m[30m  master ✚ [49m[33m[39m [K[?1h=lls. l  ccd[?1l>
-]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~ [49m[34m[39m [K[?1h=ccat .zshrc | grep gaa[?1l>
-]2;cat .zshrc | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} gaa]1;cat[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m hector [44m[30m[30m ~ [49m[34m[39m [K[?1h=cat .zshrc | grep gaa[1C[1C[1C[1C[1C[1C[1C[1C[1C               c  aaloas   ias[?1l>
-]2;alias]1;alias...=../..
-....=../../..
-.....=../../../..
-......=../../../../..
-1='cd -'
-2='cd -2'
-3='cd -3'
-4='cd -4'
-5='cd -5'
-6='cd -6'
-7='cd -7'
-8='cd -8'
-9='cd -9'
-_=sudo
-afind='ack -il'
-code='cd /home/hector/code'
-comeagain='sudo reboot -h now'
-d='dirs -v | head -10'
-g=git
-ga='git add'
-gaa='git add --all'
-gapa='git add --patch'
-gb='git branch'
-gba='git branch -a'
-gbda='git branch --merged | command grep -vE "^(\*|\s*master\s*$)" | command xargs -n 1 git branch -d'
-gbl='git blame -b -w'
-gbnm='git branch --no-merged'
-gbr='git branch --remote'
-gbs='git bisect'
-gbsb='git bisect bad'
-gbsg='git bisect good'
-gbsr='git bisect reset'
-gbss='git bisect start'
-gc='git commit -v'
-'gc!'='git commit -v --amend'
-gca='git commit -v -a'
-'gca!'='git commit -v -a --amend'
-gcam='git commit -a -m'
-'gcan!'='git commit -v -a -s --no-edit --amend'
-gcb='git checkout -b'
-gcf='git config --list'
-gcl='git clone --recursive'
-gclean='git clean -fd'
-gcm='git checkout master'
-gcmsg='git commit -m'
-gco='git checkout'
-gcount='git shortlog -sn'
-gcp='git cherry-pick'
-gcs='git commit -S'
-gd='git diff'
-gdca='git diff --cached'
-gdct='git describe --tags `git rev-list --tags --max-count=1`'
-gdt='git diff-tree --no-commit-id --name-only -r'
-gdw='git diff --word-diff'
-gf='git fetch'
-gfa='git fetch --all --prune'
-gfo='git fetch origin'
-gg='git gui citool'
-gga='git gui citool --amend'
-ggpull='git pull origin $(current_branch)'
-ggpur=ggu
-ggpush='git push origin $(current_branch)'
-ggsup='git branch --set-upstream-to=origin/$(current_branch)'
-gignore='git update-index --assume-unchanged'
-gignored='git ls-files -v | grep "^[[:lower:]]"'
-git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
-gitproxoff='git config --global http.proxy '\'\''; git config --global https.proxy '\'\'
-gitproxon='git config --global http.proxy http://1210212111:password@192.168.23.32:3128;git config --global https.proxy https://1210212111:password@192.168.23.32:3128'
-gk='\gitk --all --branches'
-gke='\gitk --all $(git log -g --pretty=format:%h)'
-gl='git pull'
-glg='git log --stat --color'
-glgg='git log --graph --color'
-glgga='git log --graph --decorate --all'
-glgm='git log --graph --max-count=10'
-glgp='git log --stat --color -p'
-glo='git log --oneline --decorate --color'
-globurl='noglob urlglobber '
-glog='git log --oneline --decorate --color --graph'
-glol='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
-glola='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --all'
-glp=_git_log_prettily
-glum='git pull upstream master'
-gm='git merge'
-gmom='git merge origin/master'
-gmt='git mergetool --no-prompt'
-gmtvim='git mergetool --no-prompt --tool=vimdiff'
-gmum='git merge upstream/master'
-godown='sudo shutdown -h now'
-gp='git push'
-gpd='git push --dry-run'
-gpoat='git push origin --all && git push origin --tags'
-gpristine='git reset --hard && git clean -dfx'
-gpu='git push upstream'
-gpv='git push -v'
-gr='git remote'
-gra='git remote add'
-grb='git rebase'
-grba='git rebase --abort'
-grbc='git rebase --continue'
-grbi='git rebase -i'
-grbm='git rebase master'
-grbs='git rebase --skip'
-grep='grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
-grh='git reset HEAD'
-grhh='git reset HEAD --hard'
-grmv='git remote rename'
-grrm='git remote remove'
-grset='git remote set-url'
-grt='cd $(git rev-parse --show-toplevel || echo ".")'
-gru='git reset --'
-grup='git remote update'
-grv='git remote -v'
-gsb='git status -sb'
-gsd='git svn dcommit'
-gsi='git submodule init'
-gsps='git show --pretty=short --show-signature'
-gsr='git svn rebase'
-gss='git status -s'
-gst='git status'
-gsta='git stash'
-gstaa='git stash apply'
-gstd='git stash drop'
-gstl='git stash list'
-gstp='git stash pop'
-gsts='git stash show --text'
-gsu='git submodule update'
-gts='git tag -s'
-gtv='git tag | sort -V'
-gunignore='git update-index --no-assume-unchanged'
-gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
-gup='git pull --rebase'
-gupv='git pull --rebase -v'
-gusac='ssh gusac@172.17.38.29 -p 2022'
-gvt='git verify-tag'
-gwch='git whatchanged -p --abbrev-commit --pretty=medium'
-gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"'
-history='fc -El 1'
-i='cd /home/hector && ./init'
-l='ls -lah'
-la='ls -lAh'
-lho=open_lighthouse_ticket
-ll='ls -lh'
-ls='ls --color=tty'
-lsa='ls -lah'
-md='mkdir -p'
-netstop='sudo service network-manager stop'
-netstrt='sudo service network-manager start'
-npmproxoff='npm config delete proxy;npm config delete https-proxy'
-npmproxon='npm config set proxy http://1210212111:password@192.168.23.32:3128;npm config set https-proxy http://1210212111:password@192.168.23.32:3128'
-please='sudo apt-get'
-po=popd
-proxy31='export http_proxy='\''http://1210212111:password@192.168.23.31:3128'\'';export https_proxy='\''http://1210212111:password@192.168.23.31:3128'\'
-proxy32='export http_proxy='\''http://1210212111:password@192.168.23.32:3128'\'';export https_proxy='\''http://1210212111:password@192.168.23.32:3128'\'
-proxyoff='export http_proxy='\'\'';export https_proxy='\'\'
-pu=pushd
-rd=rmdir
-srm='sudo rm -r'
-sv='sudo vim'
-tor='/home/hector/tor-browser_en-US && ./start-tor-browser.desktop'
-ug='sudo apt-get upgrade'
-up='sudo apt-get update'
-which-command=whence
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~ [49m[34m[39m [K[?1h=aliascat .zshrc | grep gaa[21Dcd                   [19Dc c clear[?1l>
-]2;clear]1;clear[3;J[H[2J[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~ [49m[34m[39m [K[?1h=ccd c code[?1l>
-]2;cd /home/hector/code]1;code[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code]1;~/code[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code [49m[34m[39m [K[?1h=ccd sor uS[2Crce-a carnival[1m/[0m[0m/assets[1m/[0m[0m          al[1m/[0m[0m/views[1m/[0m[0m/in  events[1m/[0m[0m       [?1l>
-]2;cd Source-carnival/views/]1;cd[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Source-carnival/views]1;..arnival/viewsls[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Source-carnival/views [42m[34m[30m  master [49m[32m[39m [K[?1h=lls[?1l>
-]2;ls --color=tty]1;lsabout.ejs          [0m[01;34mevents[0m          register.ejs         sponsors.ejs
-contact.ejs        events.ejs      response123.ejs      thanks.ejs
-cultregister.ejs   ff.ejs          responsecontact.ejs  unknownfilename.ejs
-culturals.ejs      index.ejs       responsecult1.ejs    workshopreg.ejs
-danceregister.ejs  lectures.ejs    responsecult.ejs     workshops.ejs
-dramaregister.ejs  litcontent.ejs  response.ejs
-eventcontent.ejs   literary.ejs    responsework.ejs
-[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Source-carnival/views]1;..arnival/views[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Source-carnival/views [42m[34m[30m  master [49m[32m[39m [K[?1h=vvim re
-[0mregister.ejs         responsecult1.ejs    responsework.ejs   
-response123.ejs      responsecult.ejs                        
-[Jresponsecontact.ejs  [Jresponse.ejs         [J                   [3A[0m[27m[24m[0m[27m[24m[39m[49m[52Cvim re[K[0m[27m[24m[39m[49m[?1l>
-[J]2;vim re]1;vim[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;38r[?12;25h[?12l[?25h[27m[23m[m[38;5;253m[48;5;235m[H[2J[?25l[38;1H"re" [New File][>c[1;1H[1m[38;5;247m[48;5;235m  1 [m[38;5;253m[48;5;235m
-[1m[38;5;87m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [m[38;5;253m[48;5;235m[37;1H[1m[38;5;22m[48;5;148m NORMAL [m[38;5;253m[48;5;235m[38;5;250m[48;5;240m BR: master │ [m[38;5;253m[48;5;235m[1m[38;5;231m[48;5;240mre [m[38;5;253m[48;5;235m[38;5;231m[48;5;236m                   [m[38;5;253m[48;5;235m[38;5;247m[48;5;236m unix │ utf-8 │ no ft [m[38;5;253m[48;5;235m[38;5;250m[48;5;240m 100% [m[38;5;253m[48;5;235m[1m[38;5;236m[48;5;252m LN   0[m[38;5;253m[48;5;235m[38;5;244m[48;5;252m:1  [1;5H[?12l[?25h[?25l[m[38;5;253m[48;5;235m[38;1H[K[38;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[38;1H[K[38;1H[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Source-carnival/views]1;..arnival/views[0m[27m[24m[J[39m[0m[49m[40m[39m hector [44m[30m[30m ~/code/Source-carnival/views [42m[34m[30m  master [49m[32m[39m [K[?1h=vim register.ejs[1m [0m[0m [?1l>
-]2;vim register.ejs]1;vim[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;38r[?12;25h[?12l[?25h[27m[23m[m[38;5;253m[48;5;235m[H[2J[?25l[38;1H"register.ejs" 64L, 2736C[>c[1;1H[1m[38;5;247m[48;5;235m  1 [m[38;5;253m[48;5;235m[38;5;244m[46m<[m[38;5;253m[48;5;235m[38;5;244m!DOCTYPE html[m[38;5;253m[48;5;235m[38;5;244m[46m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  2 [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mhtml[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  3 [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mhead[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mlang[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"en"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  4 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhttp-equiv[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"Content-Type"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"text/html; charset=UTF-8"[m[38;5;253m[48;5;235m[1m[38;5;111m />[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  5 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhttp-equiv[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"Cache-Control"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"no-cache, no-store, must-revalidaa[m[38;5;253m[48;5;235m[6;1H[1m[38;5;247m[48;5;235m    [m[38;5;253m[48;5;235m[38;5;208mte"[m[38;5;253m[48;5;235m[1m[38;5;111m />[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  6 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhttp-equiv[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"Pragma"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"no-cache"[m[38;5;253m[48;5;235m[1m[38;5;111m />[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  7 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhttp-equiv[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"Expires"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"0"[m[38;5;253m[48;5;235m[1m[38;5;111m />[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  8 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mname[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"viewport"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"width=device-width, initial-scale=1"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m  9 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mname[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"author"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"Akhil Pandey , Om Bhallamudi"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 10 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mname[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"keywords"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"GUSAC carnival 2015 gusac GITAM "[m[38;5;253m[48;5;235m[1m[38;5;111m >[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 11 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mname[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"description"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m = [m[38;5;253m[48;5;235m[38;5;208m"Official Website of GUSAC Carnival, pp[m[38;5;253m[48;5;235m[13;1H[1m[38;5;247m[48;5;235m    [m[38;5;253m[48;5;235m[38;5;208mart of GUSAC (GITAM University Science and Activity Center)."[m[38;5;253m[48;5;235m[1m[38;5;111m >[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 12 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mmeta[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhttp-equiv[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"X-UA-Compatible"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mcontent[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"IE=edge"[m[38;5;253m[48;5;235m[1m[38;5;111m />[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 13 
- 14 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mtitle[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m[38;5;225mCarnival | Register [m[38;5;253m[48;5;235m[1m[38;5;111m</[m[38;5;253m[48;5;235m[38;5;75mtitle[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 15 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mlink[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m'https://fonts.googleapis.com/css?family=Lato'[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mrel[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m'stylesheet'[m[38;5;253m[48;5;235m[1m[38;5;111m  [m[38;5;253m[48;5;235m[18;1H[1m[38;5;247m[48;5;235m    [m[38;5;253m[48;5;235m[1m[38;5;75mtype[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m'text/css'[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 16 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mlink[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mrel[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"icon"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mtype[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"image/png"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"img/fevicon.png"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 17 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mlink[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mrel[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"stylesheet"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"css/bootstrap.min.css"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mmedia[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"screen"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 18 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mlink[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mrel[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"stylesheet"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"css/bootswatch.min.css"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 19 [m[38;5;253m[48;5;235m[1m[38;5;246m    [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mlink[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mrel[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"stylesheet"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"css/style.css"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 20 
- 21 [m[38;5;253m[48;5;235m[1m[38;5;111m</[m[38;5;253m[48;5;235m[38;5;75mhead[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 22 [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mbody[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 23 
- 24 [m[38;5;253m[48;5;235m[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mdiv[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"navbar navbar-default navbar-fixed-top"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 25 [m[38;5;253m[48;5;235m    [1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mdiv[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"container"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 26 [m[38;5;253m[48;5;235m[8C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mdiv[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"navbar-header"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 27 [m[38;5;253m[48;5;235m[12C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75ma[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mhref[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"/"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"navbar-brand"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m[4m[38;5;81mGUSAC CARNIVAL[m[38;5;253m[48;5;235m[1m[38;5;111m</[m[38;5;253m[48;5;235m[38;5;75ma[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 28 [m[38;5;253m[48;5;235m[12C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mbutton[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"navbar-toggle"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mtype[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"button"[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mdata[m[38;5;253m[48;5;235m[1m[38;5;111m-toggle=[m[38;5;253m[48;5;235m[38;5;208m"collapse"[m[38;5;253m[48;5;235m[1m[38;5;111m  [m[38;5;253m[48;5;235m[32;1H[1m[38;5;247m[48;5;235m    [m[38;5;253m[48;5;235m[1m[38;5;75mdata[m[38;5;253m[48;5;235m[1m[38;5;111m-[m[38;5;253m[48;5;235m[1m[38;5;75mtarget[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"#navbar-main"[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 29 [m[38;5;253m[48;5;235m[16C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"icon-bar"[m[38;5;253m[48;5;235m[1m[38;5;111m></[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 30 [m[38;5;253m[48;5;235m[16C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"icon-bar"[m[38;5;253m[48;5;235m[1m[38;5;111m></[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 31 [m[38;5;253m[48;5;235m[16C[1m[38;5;111m<[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m [m[38;5;253m[48;5;235m[1m[38;5;75mclass[m[38;5;253m[48;5;235m[1m[38;5;111m=[m[38;5;253m[48;5;235m[38;5;208m"icon-bar"[m[38;5;253m[48;5;235m[1m[38;5;111m></[m[38;5;253m[48;5;235m[38;5;75mspan[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;247m[48;5;235m 32 [m[38;5;253m[48;5;235m[12C[1m[38;5;111m</[m[38;5;253m[48;5;235m[38;5;75mbutton[m[38;5;253m[48;5;235m[1m[38;5;111m>[m[38;5;253m[48;5;235m
-[1m[38;5;22m[48;5;148m NORMAL [m[38;5;253m[48;5;235m[38;5;250m[48;5;240m BR: master │ [m[38;5;253m[48;5;235m[1m[38;5;231m[48;5;240mregister.ejs [m[38;5;253m[48;5;235m[38;5;231m[48;5;236m          [m[38;5;253m[48;5;235m[38;5;247m[48;5;236m unix │ utf-8 │ html [m[38;5;253m[48;5;235m[38;5;250m[48;5;240m   1% [m[38;5;253m[48;5;235m[1m[38;5;236m[48;5;252m LN   1[m[38;5;253m[48;5;235m[38;5;244m[48;5;252m:1  [1;5H[?12l[?25h[?25l[m[38;5;253m[48;5;235m[38;1H[K[38;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[38;1H[K[38;1H[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                   ]2;hector@EX-MACHINA: ~/code/Source-carnival/vie
