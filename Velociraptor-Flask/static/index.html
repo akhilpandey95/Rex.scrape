@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="store">
+<head>
+	<meta charset="UTF-8">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link href="static/css/bootstrap-material-design.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="static/css/om.css">
+	<link href="static/css/ripples.min.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	<title>Rex | Eorapter</title>
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Rex - The e-Commerce Product Comparision Application</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="/static/about">About</a></li>
+        <li><a href="https://github.com/AkhilHector/Rex.Inc">Code</a></li>
+        <li><a href="/static/team">Team</a></li>
+        <li><a href="https://github.com/pClub-gu">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+	<div class="container">
+		<div class="col-md-4">
+			<div class="alert alert-dismissible alert-info">
+				<strong>Ola !</strong> Welcome to Rex, the e-Commerce Product Comparision Application.
+			</div>
+		</div>
+	<div class="col-md-4">
+		<div class="alert alert-dismissible alert-success">
+				<strong>UI/UX!, </strong>We are UI/Ux enthusiasts, hence we harnessed the best out of <strong>Material Design</strong>
+			</div>
+		</div>
+	<div class="col-md-4">
+		<div class="alert alert-dismissible alert-warning">
+				<strong>Carpal - API, </strong>haha that is the name of our scraping API written in <strong>Python (BeautifulSoup).</strong>
+			</div>
+		</div>
+	</div>
+	<div class="page container">
+		<div class="row">
+			<div class="col-md-2 paper">
+				<div class="sidebar">
+					<div class="filerOptionom form-group" ng-controller="filterController as filter">
+						<h3>Order By</h3>
+							<select id="select111" class="form-control" ng-model="filter.selected" ng-options="o as o for o in filter.options" ng-change="handleClick(filter.selected);"></select>
+					</div>
+					<div class="filerOptionom form-group"  ng-controller="filterControllerOm as fil">
+						<h3>Get By</h3>
+							<select id="select222" class="form-control" ng-model="fil.selected" ng-options="g as g for g in fil.options" ng-change="handleClick(fil.selected);"></select>
+					</div>
+					
+					<div class="filterOptionRating">
+						<h3>Rating</h3>
+						<ul class="ratingControlList nopad">
+						<li class="ratingControl" ng-model="filter.ratingSelector" ng-click="filter.handleRatingClick(1);" ng-change="handleClick(filter.selected);">
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+						</li>
+						<li class="ratingControl">
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+						</li>
+						<li class="ratingControl">
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+						</li>
+						<li class="ratingControl">
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star-empty"></span>
+						</li>
+						<li class="ratingControl">
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+							<span class="glyphicon ng-scope glyphicon-star"></span>
+						</li>
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div class="cards-container" ng-controller="StoreController as store">
+						<form class="theForm" ng-submit="submit()">
+							<i class="material-icons text-info">search</i>
+							<input type="search" class="ombox" id="searchMe" ng-model="text" placeholder=" Search...">
+							<input type="submit" class="btn btn-success searchButton" id="submit" value="search">
+						</form>
+				<img src="static/img/search.gif" height="50px" width="50px" id="loading" alt="Loading image..." ng-show="loading">
+				<!--
+				<div ng-model="products2">{{productsd}}</div>
+				<button ng-click="" >Log Name</button>
+				-->
+					<div class="menu-category list-group">
+					<div class="menu-category-name list-group-item active paper" ng-repeat="product in products | filter:text | productFilter | orderBy:orderProp">
+					<div class="pcard" >
+								<img ng-src="{{product.img}}" class="pcard-img" alt="Loading image..." />
+							
+							<div class="pcard-body row">
+								<a href="{{product.link}}" target="_blank" class="pcard-title col-md-12">{{product.title | makeUppercase}}</a>
+								<span class="p-price col-md-12">
+									{{product.cost}}
+								</span>
+								<div class="pcard-desc">
+									<ul ng-repeat="atr in product.attrs">
+										<li>{{atr}}</li>
+									</ul>
+								</div>
+
+							</div>
+
+							<div class="pcard-footer row">
+								<div class="col-md-6 p-rating">
+									<uib-rating class="rating" ng-model="product.rating" max="5" readonly="true" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+								</div>
+								<div class="col-md-6 p-buy">
+									<a href="{{product.link}}" class="p-buy-text" target="_blank">Buy Now</a>
+									<img class="p-vendor" src="http://www.google.com/s2/favicons?domain={{product.source}}">
+								</div>
+
+
+							</div>
+
+					</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<center>
+			<h4>With <i class="material-icons text-danger">favorite</i>  Made by <span class="text-info">Team Rex. 2015</span></h4>
+		</center>
+	</div>
+	<div class="col-md-4"></div>
+</div>
+
+<script type="text/javascript" src="static/js/material.js"></script>
+<script type="text/javascript" src="static/js/ripples.js"></script>
+<script type="text/javascript" src="static/js/angular.min.js"></script>
+<script type="text/javascript" src="static/js/ui-bootstrap-tpls-1.0.3.min.js"></script>
+<script type="text/javascript" src="static/app.js"></script>
+<script type="text/javascript">
+	$(function() {
+    $.material.init();
+});
+	
+</script>
+
+</body>
+
+</html>
