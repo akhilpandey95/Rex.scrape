@@ -78,8 +78,7 @@
 			<div class="col-md-10">
 				<div class="cards-container" ng-controller="StoreController as store">
 						<form class="theForm" ng-submit="submit()">
-							<i class="material-icons text-info">search</i>
-							<input type="search" class="ombox" id="searchMe" ng-model="text" placeholder=" Search...">
+							<input type="search" class="ombox" id="searchMe" ng-model="text" placeholder=" Search..." required>
 							<input type="submit" class="btn btn-success searchButton" id="submit" value="search">
 						</form>
 				<img src="static/img/search.gif" height="50px" width="50px" id="loading" alt="Loading image..." ng-show="loading">

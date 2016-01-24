@@ -25,9 +25,9 @@
 	});
 
 	app.filter('makeUppercase', function () {
-  	return function (item) {
-    	return item.toUpperCase();
-  	};
+		return function (item) {
+			return item.toUpperCase();
+		};
 	});
 
 	app.controller('StoreController', function($scope, $http, Service){
@@ -42,7 +42,7 @@
 
 		var get_sorter = {};
 
-		
+
 		get_sorter['Low Price'] = 'lowp';
 		get_sorter['High Price'] = 'highp';
 		get_sorter['Relavance'] = 'relavance';
@@ -58,7 +58,7 @@
 
 		$scope.$on('getordering', function() {
 			console.log(Service.message);
-			$scope.getProp = get_sorter[Service.message];		
+			$scope.getProp = get_sorter[Service.message];
 		});
 
 		$scope.submit = function() {
@@ -66,78 +66,78 @@
 			if (!$scope.getProp) {
 				$scope.getProp = 'popularity';
 			}
-			$http({url: uri = 'http://127.0.0.1:5000/secrets/search?term=' + $scope.text + '&sort=' + $scope.getProp})
+			$http({url: uri = 'http://peaceful-sea-52879.herokuapp.com//secrets/search?term=' + $scope.text + '&sort=' + $scope.getProp})
 
-				.success(function (data) {
+			.success(function (data) {
 			     // put $scope var that needs to be updated
-			           $scope.products = data.prodlist;
+			     $scope.products = data.prodlist;
 			           //$scope.products2 = data.prodlist;      // inside a function inside $apply like this
 			           console.log($scope.products);
 			           $scope.loading = false;
-			         }).error(function (data, status) {
-			           console.log(status);
-			           $scope.loading = false;
-			      }); 
-		}
+			       }).error(function (data, status) {
+			       	console.log(status);
+			       	$scope.loading = false;
+			       });
+			   }
 
-		$scope.logName = function () {
-			console.log($scope.products);
-			console.log($scope.products2);
-			console.log($scope.text);
-		}
-	});
+			   $scope.logName = function () {
+			   	console.log($scope.products);
+			   	console.log($scope.products2);
+			   	console.log($scope.text);
+			   }
+			});
 
-	app.controller('searchController', function($scope, Service) {
-		$scope.submit = function() {
-			
-		    	Service.prepForBroadcast('data', $scope.text);
-				
-		}
+app.controller('searchController', function($scope, Service) {
+	$scope.submit = function() {
+
+		Service.prepForBroadcast('data', $scope.text);
+
+	}
 
 
-	});
+});
 
-	app.controller('filterController', function($scope, Service){
-		this.selected = 'Price Low to High';
-		this.selected2 = 'Relavance';
-		this.options = ['Price Low to High', 'Price High to Low', 'Highest Rated', 'Alphabetical'];
-		this.options2 = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
-		$scope.handleClick = function(msg) {
+app.controller('filterController', function($scope, Service){
+	this.selected = 'Price Low to High';
+	this.selected2 = 'Relavance';
+	this.options = ['Price Low to High', 'Price High to Low', 'Highest Rated', 'Alphabetical'];
+	this.options2 = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
+	$scope.handleClick = function(msg) {
 			//console.log('handleClick1');
-	    	Service.prepForBroadcast('ordering', msg);
+			Service.prepForBroadcast('ordering', msg);
 		};
 
 	});
 
-	app.controller('filterControllerOm', function($scope, Service){
-		this.selected = 'Relavance';
-		this.options = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
-		$scope.handleClick = function(msg) {
-	    	Service.prepForBroadcast('getordering', msg);
-		};
-	});
+app.controller('filterControllerOm', function($scope, Service){
+	this.selected = 'Relavance';
+	this.options = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
+	$scope.handleClick = function(msg) {
+		Service.prepForBroadcast('getordering', msg);
+	};
+});
 
 
-	app.controller('TabController', function(){
-	    this.tab = 1;
+app.controller('TabController', function(){
+	this.tab = 1;
 
-	    this.setTab = function(newValue){
-	      this.tab = newValue;
-	    };
+	this.setTab = function(newValue){
+		this.tab = newValue;
+	};
 
-	    this.isSet = function(tabName){
-	      return this.tab === tabName;
-	    };
-	  });
+	this.isSet = function(tabName){
+		return this.tab === tabName;
+	};
+});
 
-	  app.controller('GalleryController', function(){
-	    this.current = 0;
-	    this.setCurrent = function(newGallery){
-	      this.current = newGallery || 0;
-	    };
-	  });
+app.controller('GalleryController', function(){
+	this.current = 0;
+	this.setCurrent = function(newGallery){
+		this.current = newGallery || 0;
+	};
+});
 
-	var gems = [];
+var gems = [];
 
 
 })();
