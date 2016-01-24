@@ -41,3 +41,7 @@ def scrape_amazon(arg):
 
         except:
             i['rating'] = "0.0"
+
+        print i['cost']
+
+scrape_amazon('nike')
