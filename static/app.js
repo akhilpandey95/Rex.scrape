@@ -63,10 +63,15 @@
 
 		$scope.submit = function() {
 			$scope.loading = true;
+			$http.defaults.useXdomain = true;
+			delete $http.defaults.headers.common['X-Requested-With'];
+			$http.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+			$http.defaults.headers.common["Access-Control-Allow-Origin"] = "GET, POST, PUT, DELETE, OPTIONS";
+
 			if (!$scope.getProp) {
 				$scope.getProp = 'popularity';
 			}
-			$http({url: uri = 'http://peaceful-sea-52879.herokuapp.com//secrets/search?term=' + $scope.text + '&sort=' + $scope.getProp})
+			$http({url: uri = 'http://rex001.herokuapp.com/secrets/search?term=' + $scope.text + '&sort=' + $scope.getProp})
 
 			.success(function (data) {
 			     // put $scope var that needs to be updated
@@ -87,57 +92,54 @@
 			   }
 			});
 
-app.controller('searchController', function($scope, Service) {
-	$scope.submit = function() {
+	app.controller('searchController', function($scope, Service) {
+		$scope.submit = function() {
 
-		Service.prepForBroadcast('data', $scope.text);
+			Service.prepForBroadcast('data', $scope.text);
 
-	}
+		}
 
-
-});
-
-app.controller('filterController', function($scope, Service){
-	this.selected = 'Price Low to High';
-	this.selected2 = 'Relavance';
-	this.options = ['Price Low to High', 'Price High to Low', 'Highest Rated', 'Alphabetical'];
-	this.options2 = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
-	$scope.handleClick = function(msg) {
-			//console.log('handleClick1');
-			Service.prepForBroadcast('ordering', msg);
-		};
 
 	});
 
-app.controller('filterControllerOm', function($scope, Service){
-	this.selected = 'Relavance';
-	this.options = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
-	$scope.handleClick = function(msg) {
-		Service.prepForBroadcast('getordering', msg);
-	};
-});
+	app.controller('filterController', function($scope, Service){
+		this.selected = 'Price Low to High';
+		this.selected2 = 'Relavance';
+		this.options = ['Price Low to High', 'Price High to Low', 'Highest Rated', 'Alphabetical'];
+		this.options2 = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
+		$scope.handleClick = function(msg) {
+				//console.log('handleClick1');
+				Service.prepForBroadcast('ordering', msg);
+			};
+
+		});
+
+	app.controller('filterControllerOm', function($scope, Service){
+		this.selected = 'Relavance';
+		this.options = ['Low Price', 'Relavance', 'High Price', 'Popularity'];
+		$scope.handleClick = function(msg) {
+			Service.prepForBroadcast('getordering', msg);
+		};
+	});
 
 
-app.controller('TabController', function(){
-	this.tab = 1;
+	app.controller('TabController', function(){
+		this.tab = 1;
 
-	this.setTab = function(newValue){
-		this.tab = newValue;
-	};
+		this.setTab = function(newValue){
+			this.tab = newValue;
+		};
 
-	this.isSet = function(tabName){
-		return this.tab === tabName;
-	};
-});
+		this.isSet = function(tabName){
+			return this.tab === tabName;
+		};
+	});
 
-app.controller('GalleryController', function(){
-	this.current = 0;
-	this.setCurrent = function(newGallery){
-		this.current = newGallery || 0;
-	};
-});
-
-var gems = [];
-
+	app.controller('GalleryController', function(){
+		this.current = 0;
+		this.setCurrent = function(newGallery){
+			this.current = newGallery || 0;
+		};
+	});
 
 })();

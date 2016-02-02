@@ -2,11 +2,13 @@ from bs4 import BeautifulSoup
 import requests
 
 from flask import Flask, jsonify, request, render_template, send_file
+from flask.ext.cors import CORS
 
 import json
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 def snapdeal_scraper(query, sort_selection=0):
     """ sorting types
@@ -206,7 +208,7 @@ def amazon_scraper(query, sort_selection=0):
 def index():
     return send_file('static/index.html')
 
-@app.route('/secrets/search', methods = ['GET'])
+@app.route('/secrets/search', methods = ['GET', 'OPTIONS'])
 def search():
     searchword = request.args.get('term', '')
     if not searchword:
