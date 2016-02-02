@@ -3,7 +3,9 @@ Application for comparing search results of different e-Commerce websites.
 
 ### Want to see the Application live ?
 - It is Live on [labs.akhilhector.com](http://labs.akhilhector.com)
-- The API is Live on heroku, click [here](http://peaceful-sea-52879.herokuapp.com/)
+- The API is Live on heroku, click [here](https://rex001.herokuapp.com/secrets/search?term=nike).
+
+`NOTE` : The API has a hardcoded value, Please change it to a different search term if you wish to use the API.
 
 ### ScreenCast
 Please go ahead and click on the [link](https://www.youtube.com/watch?v=n1gbfy3-ZqM)
